@@ -6,23 +6,18 @@
 ## Setup Instructions
 - First, after cloning this project repository, navigate to the root directory of the project with `cd receipt-processor-challenge`
 - Next, please follow the instructions based on the operating system
-### Mac - Apple Silicon
-- I chose the default Ruby version for this operating system.
+### Mac
+- I used the default Ruby version for this operating system.
 - Start the server with the following command:
 ```
 ruby index.rb
 ```
 -Troubleshooting: If any issues occur, please follow the Windows/Linux (Docker) setup instructions
-### Mac - Intel Chip
 ### Windows/Linux
 - Run the following commands to build and run the Docker image needed for the Ruby environment:
 ```
 docker build -t receipt_processor .
-docker run receipt_processor
-```
-- Start the server with the following command:
-```
-ruby index.rb
+docker run -p 1337:1337 receipt_processor
 ```
 
 ## Testing

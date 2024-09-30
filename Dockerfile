@@ -1,6 +1,12 @@
 # Dockerfile
 
-FROM ruby:2.7.2
+FROM ruby:2.6.10
 
-CMD ruby -e "puts 1 + 2"
+WORKDIR /app
+COPY . /app
+
+EXPOSE 4567
+
+CMD ruby /app/index.rb
+
 
