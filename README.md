@@ -6,7 +6,7 @@
 ## Setup Instructions
 - First, after cloning this project repository, navigate to the root directory of the project with `cd receipt-processor-challenge`
 - Next, please follow the instructions based on the operating system
-### Mac
+### MacOS (Sonoma 14.6.1)
 - I used the default Ruby version for this operating system.
 - Start the server with the following command:
 ```
